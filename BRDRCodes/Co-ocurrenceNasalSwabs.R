@@ -189,7 +189,6 @@ plot(H1co)
 
 ##Cooocurrence data Healthy
 CooccurH <- read.csv("printHealthy.txt", na.strings = c("","NA"), header=TRUE)
-CoocpronH <- read.csv("prob.tableHealthy.txt", na.strings = c("","NA"), header=TRUE)
 ### CooccurH contains only the positive and negative pairs
 # p_lt =1 positive 
 # p_gt= negative
@@ -241,7 +240,6 @@ write.table(negaH,"negativeHealthy.txt",sep=",", row.names = FALSE)
 
 ##Cooocurrence data BRD
 CooccurB <- read.csv("printBRD.txt", na.strings = c("","NA"), header=TRUE)
-CoocpronB <- read.csv("prob.tableBRD.txt", na.strings = c("","NA"), header=TRUE)
 ### CooccurH contains only the positive and negative pairs
 # p_lt =1 positive 
 # p_gt= negative
