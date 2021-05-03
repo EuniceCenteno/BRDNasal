@@ -23,7 +23,7 @@ library(qiime2R)
 
 #OTU table (shared file)
 #The OTU table as exported from qiime has a pound sign before the header row. You need to delete that pound sign in a text editor.
-metadata <- read.delim("DESeqmetadata.txt", sep = "\t", header = T, quote = "", stringsAsFactors = F)
+metadata <- read.csv("DESeqmetadata.csv", na.strings = c("","NA"), header=TRUE)
 #metadata <- metadata2[-1,]
 str(metadata)
 metadata$BRD <- factor(metadata$BRD) 
@@ -41,7 +41,6 @@ rownames(ASV_table) <- ASV_table$ASVnos ##We change the ASV name created in Qiim
 ASVkey <- ASV_table[, (ncol(ASV_table)-1):ncol(ASV_table)] #the key withe the names
 ASV_table <- ASV_table[,-(ncol(ASV_table)-1):-ncol(ASV_table)]
 ASV_table <- t(ASV_table)
-#ASV_table2 <- ASV_table * 2 + 1
 
 #Taxonomy of each OTU
 ##Adding taxonomy
@@ -459,7 +458,7 @@ sigtab$High_low <- ifelse(
 #write.table(sigtab,"sigtab.txt",sep=",", row.names = TRUE)
 
 #To manke the figures
-DeSeq = read.table("DESeqResultsNew.txt", header=TRUE, sep="\t")
+DeSeq <- read.csv("DESeqResultsNew.csv", na.strings = c("","NA"), header=TRUE)
 str(DeSeq)
 DeSeq$High_low <- factor(DeSeq$High_low)
 DeSeq$Species <- factor(DeSeq$Species)
