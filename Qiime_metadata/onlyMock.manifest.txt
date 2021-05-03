@@ -1,0 +1,4 @@
+sample-id	forward-absolute-filepath	reverse-absolute-filepath
+Mock_1	/depot/john2185/data/eunice/AultThesis/Controls/050076_Mock_S95_run849_L001_R1_001.fastq.gz	/depot/john2185/data/eunice/AultThesis/Controls/050076_Mock_S95_run849_L001_R2_001.fastq.gz
+Mock_Old	/depot/john2185/data/eunice/AultThesis/Controls/050152_Mock-O_S75_run850_L001_R1_001.fastq.gz	/depot/john2185/data/eunice/AultThesis/Controls/050152_Mock-O_S75_run850_L001_R2_001.fastq.gz
+Mock_new	/depot/john2185/data/eunice/AultThesis/Controls/050153_Mock-N_S76_run850_run850_L001_R1_001.fastq.gz	/depot/john2185/data/eunice/AultThesis/Controls/050153_Mock-N_S76_run850_run850_L001_R2_001.fastq.gz

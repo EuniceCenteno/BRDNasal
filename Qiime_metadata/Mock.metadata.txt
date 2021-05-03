@@ -1,0 +1,5 @@
+ID	identity	sample
+#q2:types	categorical	categorical
+Mock_1	Mock	Mock_1
+Mock_Old	Mock 	Mock_Old
+Mock_new	Mock	Mock_new

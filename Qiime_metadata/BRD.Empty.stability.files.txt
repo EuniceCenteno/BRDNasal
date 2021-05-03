@@ -1,0 +1,16 @@
+sample-id	forward-absolute-filepath	reverse-absolute-filepath
+E10	/depot/john2185/data/eunice/AultThesis/Controls/Empty/050143_E10_S66_run850_L001_R1_001.fastq.gz	/depot/john2185/data/eunice/AultThesis/Controls/Empty/050143_E10_S66_run850_L001_R2_001.fastq.gz
+E11	/depot/john2185/data/eunice/AultThesis/Controls/Empty/050144_E11_S67_run850_L001_R1_001.fastq.gz	/depot/john2185/data/eunice/AultThesis/Controls/Empty/050144_E11_S67_run850_L001_R2_001.fastq.gz
+E12	/depot/john2185/data/eunice/AultThesis/Controls/Empty/050145_E12_S68_run850_L001_R1_001.fastq.gz	/depot/john2185/data/eunice/AultThesis/Controls/Empty/050145_E12_S68_run850_L001_R2_001.fastq.gz
+E13	/depot/john2185/data/eunice/AultThesis/Controls/Empty/050146_E13_S69_run850_L001_R1_001.fastq.gz	/depot/john2185/data/eunice/AultThesis/Controls/Empty/050146_E13_S69_run850_L001_R2_001.fastq.gz
+E14	/depot/john2185/data/eunice/AultThesis/Controls/Empty/050147_E14_S70_run850_L001_R1_001.fastq.gz	/depot/john2185/data/eunice/AultThesis/Controls/Empty/050147_E14_S70_run850_L001_R2_001.fastq.gz
+E15	/depot/john2185/data/eunice/AultThesis/Controls/Empty/050148_E15_S71_run850_L001_R1_001.fastq.gz	/depot/john2185/data/eunice/AultThesis/Controls/Empty/050148_E15_S71_run850_L001_R2_001.fastq.gz
+E16	/depot/john2185/data/eunice/AultThesis/Controls/Empty/050149_E16_S72_run850_L001_R1_001.fastq.gz	/depot/john2185/data/eunice/AultThesis/Controls/Empty/050149_E16_S72_run850_L001_R2_001.fastq.gz
+E17	/depot/john2185/data/eunice/AultThesis/Controls/Empty/050150_E17_S73_run850_L001_R1_001.fastq.gz	/depot/john2185/data/eunice/AultThesis/Controls/Empty/050150_E17_S73_run850_L001_R2_001.fastq.gz
+E2	/depot/john2185/data/eunice/AultThesis/Controls/Empty/050136_E2_S59_run850_L001_R1_001.fastq.gz	/depot/john2185/data/eunice/AultThesis/Controls/Empty/050136_E2_S59_run850_L001_R2_001.fastq.gz
+E4	/depot/john2185/data/eunice/AultThesis/Controls/Empty/050137_E4_S60_run850_L001_R1_001.fastq.gz	/depot/john2185/data/eunice/AultThesis/Controls/Empty/050137_E4_S60_run850_L001_R2_001.fastq.gz
+E5	/depot/john2185/data/eunice/AultThesis/Controls/Empty/050138_E5_S61_run850_L001_R1_001.fastq.gz	/depot/john2185/data/eunice/AultThesis/Controls/Empty/050138_E5_S61_run850_L001_R2_001.fastq.gz
+E6	/depot/john2185/data/eunice/AultThesis/Controls/Empty/050139_E6_S62_run850_L001_R1_001.fastq.gz	/depot/john2185/data/eunice/AultThesis/Controls/Empty/050139_E6_S62_run850_L001_R2_001.fastq.gz
+E7	/depot/john2185/data/eunice/AultThesis/Controls/Empty/050140_E7_S63_run850_L001_R1_001.fastq.gz	/depot/john2185/data/eunice/AultThesis/Controls/Empty/050140_E7_S63_run850_L001_R2_001.fastq.gz
+E8	/depot/john2185/data/eunice/AultThesis/Controls/Empty/050141_E8_S64_run850_L001_R1_001.fastq.gz	/depot/john2185/data/eunice/AultThesis/Controls/Empty/050141_E8_S64_run850_L001_R2_001.fastq.gz
+E9	/depot/john2185/data/eunice/AultThesis/Controls/Empty/050142_E9_S65_run850_L001_R1_001.fastq.gz	/depot/john2185/data/eunice/AultThesis/Controls/Empty/050142_E9_S65_run850_L001_R2_001.fastq.gz
