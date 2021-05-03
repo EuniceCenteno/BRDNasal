@@ -10,10 +10,11 @@ library(MASS)
 #install.packages("ISLR")
 ## Test the data
 setwd("~/Desktop/eunice/Thesis/qPCR/LDA_with0/")
-qPCR <- read.csv("LDAMetadata.csv", na.strings = c("","NA"), header=TRUE)
+qPCR <- read.csv("LDAMetadata.csv", na.strings = c("","NA"), header=TRUE) #data with 0
+qPCR <- read.csv("LDAMetadata_no0.csv", na.strings = c("","NA"), header=TRUE) # data of the animals that tested positive for the 4 bacteria, no 0 included
 str(qPCR)
 
-##Data with 0
+##transfor the data to log10
 qPCR <- mutate(qPCR, Mbovis_copies = log10(Mbovis_copies + 1))
 qPCR <- mutate(qPCR, Pm_copies = log10(Pm_copies + 1))
 qPCR <- mutate(qPCR, Hs_copies = log10(Hs_copies + 1))
@@ -40,8 +41,6 @@ train2<- train[c(1:3)]
 lda.BRD <- lda(BRD ~ ., train2)
 lda.BRD #show results
 
-#(-0.341*MBovis)+(0.18∗PM)+(1.04∗Hs)+(-0.23∗Mh)
-
 #Only on LD1 axis
 plot(lda.BRD)
 
@@ -57,15 +56,11 @@ str(test)
 test %>% tally()
 test %>% count(BRD)
 train2 %>% count(BRD)
-#BRD 19
-#Healthy 33
 
 Tlda <- lda.BRD2[["class"]]
 Tlda <- as.data.frame(Tlda)
 Tlda %>% tally()
 Tlda %>% count(Tlda)
-#BRD 20
-#Healthy 32
 
 lda.cm <- table(test$BRD, lda.BRD2$class)
 cm <- as.data.frame(lda.cm)
