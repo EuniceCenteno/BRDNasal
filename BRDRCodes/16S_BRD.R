@@ -77,11 +77,6 @@ qqnorm(residuals(M2$full_model))
 qqnorm(residuals(M3$full_model))
 qqnorm(residuals(M4$full_model))
 
-# getting the means 
-emm_options(lmer.df = "asymptotic") # also possible: 'satterthwaite', 'kenward-roger'
-emm_16S.1<- emmeans(M1, "Date.Collection")
-emm_16S.1
-
 # interpreting results
 # BRD plots
 a <- afex_plot(M1, x = "BRD", id = "PenCode", dodge = 0.4, point_arg = list(size = 4), mapping="color") +
@@ -144,7 +139,7 @@ ggarrange(e,f,g,h, labels = c("A", "B", "C", "D"),
 ## Correlation between average temperature and date of collection
 
 str(metadata)
-cordata = metadata[,c(3,5)]
+cordata = metadata[,c(2,4)]
 corr <- round(cor(cordata), 1)
 corr
 
